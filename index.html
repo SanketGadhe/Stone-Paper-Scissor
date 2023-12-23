@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h2 class="heading">Stone Papper Scissior</h2>
+        </div>
+        <div class="score">
+            <table>
+                <tbody>
+                    <th class="thead">Score Card</th>
+                    <tr class="trow">
+                        <td>You</td>
+                        <td id="you">0</td>
+                    </tr>
+                    <tr class="trow"><td>Bot</td>
+                        <td id="computer">0</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="win hide">
+            <p>Congrats</p>
+        </div>
+       
+        <div class="hand">
+            <p>You</p>
+            <div class="user">
+                <button class="btn" name="stone">
+                    <img src="stone.png" alt="" />
+                </button>
+                <button class="btn" name="paper">
+                    <img src="paper.png" alt="" />
+                </button>
+                <button class="btn" name="scissor">
+                    <img src="scissor.png" alt="" />
+                </button>
+            </div>
+            <div class="bot">
+                <p>Bot</p>
+                <button class="btn-bot"><img src="scissor.png" alt="" /></button>
+            </div>
+        </div>
+
+
+    </div>
+    <button id="new-game" class="hide">New Game</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
