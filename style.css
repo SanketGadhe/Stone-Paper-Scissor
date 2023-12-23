@@ -1,4 +1,38 @@
+@media screen and (max-width: 600px) {
+    .btn img,
+    .btn-bot img {
+        height: 6rem;
+    }
 
+    .heading {
+        font-size: 2rem;
+    }
+
+    .btn,
+    .btn-bot {
+        padding: 1rem;
+    }
+
+    .thead,
+    .trow {
+        font-size: 1.5rem;
+    }
+
+    #you,
+    #computer {
+        padding: 0px 0.6rem;
+    }
+
+    .hand p,
+    .win p {
+        font-size: 2rem;
+    }
+
+    #new-game {
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+}
 body{
     margin: 0px;
     padding: 0px;
