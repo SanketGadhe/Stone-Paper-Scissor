@@ -1,3 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn img {
+    height: 10rem;
+}
+
+.btn-bot img {
+    height: 10rem;
+}
+
+.user,
+.computer {
+    display: block;
+}
+
+.header {
+    background-color: black;
+    height: 4rem;
+    color: #fff;
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.btn {
+    background-color: #fff;
+    border: none;
+    padding: 1.4rem;
+}
+
+.btn-bot {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.score {
+    text-align: center;
+    margin: 0rem 0.1rem;
+}
+
+.score table {
+    width: auto;
+    background-color: rgb(140, 188, 218);
+    border-radius: 0 0 1.2rem;
+}
+
+.thead {
+    font-weight: bold;
+    font-size: 2rem;
+    width: 13rem;
+    column-span: all;
+}
+
+.trow {
+    font-size: 2rem;
+    text-align: left;
+}
+
+#you,
+#computer {
+    padding: 0px 1.2rem;
+}
+
+.hand {
+    text-align: center;
+}
+
+.hand p {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.win {
+    margin: 1rem;
+    background-color: #5eae93;
+    border-radius: 1rem;
+    border: 0.2rem solid black;
+    width: auto;
+    display: inline-table;
+}
+
+.win p {
+    font-size: 3.6rem;
+    display: inline;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+#new-game {
+    text-align: center;
+    margin: 1rem;
+    padding: 0.8rem;
+    background-color: #3c4945;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+}
+
+#new-game:hover {
+    background-color: #8f9d99;
+    color: rgb(88, 88, 88);
+}
+
+/* Responsive Styles */
 @media screen and (max-width: 600px) {
     .btn img,
     .btn-bot img {
@@ -32,108 +150,4 @@
         padding: 0.5rem;
         font-size: 1.5rem;
     }
-}
-body{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    justify-content: center;
-}.btn img{
-    height:10rem ;
-}
-.btn-bot img{
-    height:10rem ;
-}
-
-.user,.computer{
-    display: block;
-}
-.header{
-    background-color: black;
-    height: 4rem;
-    color: #fff;
-    text-align: center;
-}
-.heading{
-    font-size: 3rem;
-    margin: 0;
-}
-.btn{
- background-color: #fff;
-    border: none;
-    padding: 1.4rem;
-}
-.btn-bot{
-    background-color: #fff;
-    border: none;
-    padding: 10px;
-}
-.score{
-    text-align: center;
-    margin:0rem 0.1rem;
-}
-.score table{
-    /* border: 2px solid black; */
-    width: auto;
-    background-color: rgb(140, 188, 218);
-    /* border: 2px solid black; */
-    border-radius:0 0 1.2rem;
-}
-.thead{
-    font-weight: bold;
-    font-size: 2rem;
-    width: 13rem;
-    column-span: all;
-    
-}
-.trow{
-    font-size: 2rem;
-    text-align: left;
-}
-#you,#computer{
-    padding: 0px 1.2rem;
-}
-.hand{
-    text-align: center;
-}
-.hand p{
-    margin: 0;
-    font-size: 3rem;
-}
-.win{
-    margin: 1rem;
-    background-color: #5eae93;
-    border-radius: 1rem;
-    border: 0.2rem solid black;
-width: auto;
-display: inline-table
-}
-.win p{
-
-    font-size: 3.6rem;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    display: inline;
-   font-weight: bold;
-   padding: 1rem;
- 
-}
-.hide{
-display: none;
-}
-
-#new-game{
-  text-align: center;
-  /* display: block; */
-  margin: 1rem;
-    padding: 0.8rem;
-    background-color: #3c4945;
-    border-radius: 1rem;
-    font-size: 2rem;
-    color: #fff;
-    border: none;
-}
-#new-game:hover{
-    background-color: #8f9d99;
-    color: rgb(88, 88, 88);
 }
