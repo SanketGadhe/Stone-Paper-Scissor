@@ -1,3 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.main{
+    width: 100%;
+}
+.header{
+    background-color: black;
+    height: 10vmin;
+    font-size: 4vmin;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin: 0 0;
+}
+.score{
+    height: 15vmin;
+    font-size: 4vmin;
+   line-height: 5vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cover{
+    background-color: rgb(196, 212, 255);
+    border-radius: 10%;
+    }
+.score span{
+    padding:0 3vmin;
+    font-weight:bolder;
+}
+.win{
+    height: 10vmin;
+    display: flex;
+    font-size: 7vmin;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vmin;
+}
+.win p{
+    margin: 0 0;
+    padding: 0 0.4rem;
+    background-color: rgb(45, 110, 88);
+    border-radius: 0.9rem;
+}
+
+.hide{
+    display: none;
+}
+.hand p{
+    font-size: 6vmin;
+    margin: 5px 0;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 3px;
+}
+.choice{
+    height: 8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+img{
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.bot img{
+    cursor: auto;
+}
+.bot:hover{
+    opacity: 1;
+}
+#new-game{
+    text-align: center;
+    margin: 0.51rem;
+    padding: 0.8rem;
+    background-color: #3c4945;
+    border-radius: 1rem;
+    font-size: 3vmin;
+    color: #fff;
+    border: none;
+}
+
+#new-game:hover {
+    background-color: #8f9d99;
+    color: rgb(88, 88, 88);
+}
+/*
 body {
     margin: 0px;
     padding: 0px;
@@ -115,11 +218,10 @@ body {
     color: rgb(88, 88, 88);
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 600px) {
     .btn img,
     .btn-bot img {
-        height: 6rem;
+        height: 3rem;
     }
 
     .heading {
@@ -128,19 +230,18 @@ body {
 
     .btn,
     .btn-bot {
-        padding: 1rem;
+        padding: 0.1rem;
     }
 
     .thead,
     .trow {
-        font-size: 1.5rem;
+        font-size: 0.5rem;
     }
 
     #you,
     #computer {
         padding: 0px 0.6rem;
     }
-
     .hand p,
     .win p {
         font-size: 2rem;
@@ -151,3 +252,4 @@ body {
         font-size: 1.5rem;
     }
 }
+*/
