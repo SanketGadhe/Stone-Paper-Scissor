@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h2 class="heading">Stone Papper Scissior</h2>
+        </div>
+        <div class="score">
+            <div class="cover"><span>Score</span>
+                <div class="you">
+                    <span>You</span>
+                    <span id="you">0</span>
+                </div>
+                <div class="computer">
+                    <span>Bot</span>
+                    <span id="computer">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="win hide">
+            <p>Congrats</p>
+        </div>
+
+        <div class="hand">
+            <p>You</p>
+            <div class="choices">
+                <div class="choice">
+                    <img src="stone.png" name="stone" alt="" />
+                </div>
+                <div class="choice">
+
+                    <img src="paper.png" name="paper"
+                    alt="" />
+                </div>
+                <div class="choice">
+                    <img src="scissor.png"  name="scissor" alt="" />
+                </div>
+            </div>
+            <p>Bot</p>
+            <div class="choices">
+                
+                <div class="choice bot">
+                    <img src="stone.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <button id="new-game" class="hide">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
