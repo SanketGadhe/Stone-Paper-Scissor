@@ -14,44 +14,46 @@
             <h2 class="heading">Stone Papper Scissior</h2>
         </div>
         <div class="score">
-            <table>
-                <tbody>
-                    <th class="thead">Score Card</th>
-                    <tr class="trow">
-                        <td>You</td>
-                        <td id="you">0</td>
-                    </tr>
-                    <tr class="trow"><td>Bot</td>
-                        <td id="computer">0</td></tr>
-                </tbody>
-            </table>
+            <div class="cover"><span>Score</span>
+                <div class="you">
+                    <span>You</span>
+                    <span id="you">0</span>
+                </div>
+                <div class="computer">
+                    <span>Bot</span>
+                    <span id="computer">0</span>
+                </div>
+            </div>
         </div>
         <div class="win hide">
             <p>Congrats</p>
         </div>
-       
+
         <div class="hand">
             <p>You</p>
-            <div class="user">
-                <button class="btn" name="stone">
-                    <img src="stone.png" alt="" />
-                </button>
-                <button class="btn" name="paper">
-                    <img src="paper.png" alt="" />
-                </button>
-                <button class="btn" name="scissor">
-                    <img src="scissor.png" alt="" />
-                </button>
+            <div class="choices">
+                <div class="choice">
+                    <img src="stone.png" name="stone" alt="" />
+                </div>
+                <div class="choice">
+
+                    <img src="paper.png" name="paper"
+                    alt="" />
+                </div>
+                <div class="choice">
+                    <img src="scissor.png"  name="scissor" alt="" />
+                </div>
             </div>
-            <div class="bot">
-                <p>Bot</p>
-                <button class="btn-bot"><img src="scissor.png" alt="" /></button>
+            <p>Bot</p>
+            <div class="choices">
+                
+                <div class="choice bot">
+                    <img src="stone.png" alt="" />
+                </div>
             </div>
         </div>
-
-
+        <button id="new-game" class="hide">New Game</button>
     </div>
-    <button id="new-game" class="hide">New Game</button>
 
     <script src="script.js"></script>
 </body>
